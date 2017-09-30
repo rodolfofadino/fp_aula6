@@ -1,0 +1,43 @@
+/*
+This is an example of how to use the image sprite in your own CSS files
+*/
+.mysprite {
+	background-image: url('mysprite.sprite.jpg');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.mysprite.chef {
+	width: 108px;
+	height: 115px;
+	background-position: -10px -10px;
+}
+.mysprite.fish {
+	width: 110px;
+	height: 106px;
+	background-position: -10px -135px;
+}
+.mysprite.fresh {
+	width: 105px;
+	height: 113px;
+	background-position: -10px -251px;
+}
+.mysprite.heart {
+	width: 105px;
+	height: 110px;
+	background-position: -10px -374px;
+}
+.mysprite.learning {
+	width: 111px;
+	height: 115px;
+	background-position: -10px -494px;
+}
+.mysprite.pasta {
+	width: 111px;
+	height: 109px;
+	background-position: -10px -619px;
+}
+.mysprite.pizza {
+	width: 112px;
+	height: 106px;
+	background-position: -10px -738px;
+}

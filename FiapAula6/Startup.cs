@@ -45,15 +45,15 @@ namespace FiapAula6
                 app.UseExceptionHandler("/Home/Error");
             }
             //app.UseResponseCompression();
-            app.UseStaticFiles();
-            //app.UseStaticFiles(new StaticFileOptions()
-            //{
-            //    OnPrepareResponse = ctx =>
-            //    {
-            //        const int durationInSeconds = 60 * 60 * 24;
-            //        ctx.Context.Response.Headers[HeaderNames.CacheControl] = $"public,max-age={durationInSeconds}";
-            //    }
-            //});
+            //app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions()
+            {
+                OnPrepareResponse = ctx =>
+                {
+                    const int durationInSeconds = 60 * 60 * 24;
+                    ctx.Context.Response.Headers[HeaderNames.CacheControl] = $"public,max-age={durationInSeconds}";
+                }
+            });
 
             app.UseMvc(routes =>
             {

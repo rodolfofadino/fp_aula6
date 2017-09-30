@@ -1,0 +1,20 @@
+{
+  "images": {
+    "chef": "chef.jpg",
+    "fish": "fish.jpg",
+    "fresh": "fresh.jpg",
+    "heart": "heart.jpg",
+    "learning": "learning.jpg",
+    "pasta": "pasta.jpg",
+    "pizza": "pizza.jpg"
+  },
+  "orientation": "vertical",
+  "optimize": "lossless",
+  "padding": 10,
+  "output": "jpg",
+  "stylesheet": "css",
+  "pathprefix": "",
+  "customstyles": {
+    "display": "inline-block"
+  }
+}

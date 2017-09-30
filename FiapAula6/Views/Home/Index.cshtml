@@ -5,25 +5,31 @@
 
 <ul class="menuicons">
     <li>
-        <img src="~/images/chef.jpg" />
+        <div class="mysprite chef"> </div>
     </li>
     <li>
-        <img src="~/images/fish.jpg" />
+        <div class="mysprite fish"> </div>
+
     </li>
     <li>
-        <img src="~/images/fresh.jpg" />
+        <div class="mysprite fresh"> </div>
+
     </li>
     <li>
-        <img src="~/images/heart.jpg" />
+        <div class="mysprite heart"> </div>
+
     </li>
     <li>
-        <img src="~/images/learning.jpg" />
+        <div class="mysprite learning"> </div>
+
     </li>
     <li>
-        <img src="~/images/pasta.jpg" />
+        <div class="mysprite pasta"> </div>
+
     </li>
     <li>
-        <img src="~/images/pizza.jpg" />
+        <div class="mysprite pizza"> </div>
+
     </li>
 </ul>
 
@@ -33,7 +39,7 @@
     {
         <li>
             <p>@item.Nome</p>
-            <img class="img-recipe" src="@item.Imagem" />
+            <img class="img-recipe lazy" data-src="@item.Imagem" />
         </li>
     }
 </ul>
@@ -81,3 +87,13 @@
     </div>
 </div>
 
+
+@section Scripts{ 
+
+<script>
+    $(function () {
+        $('.lazy').lazy();
+    });
+
+</script>
+}

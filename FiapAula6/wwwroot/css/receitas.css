@@ -1,0 +1,117 @@
+﻿.temas .listaDestaque li img {
+  height: 172px;
+  width: 282px;
+}
+.temas .listaDestaque li {
+  min-height: 240px;
+  width: inherit;
+}
+.espacoFoto {
+  background: url(/central/content/images/backgrounds/bgSombraFoto.png) no-repeat bottom center;
+  float: left;
+  width: 298px;
+  margin-bottom: 7px;
+  padding-bottom: 13px;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  color: #3a91e1;
+  font-size: 8px;
+  line-height: 20px;
+  padding: 7px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  height: 195px;
+}
+@media screen and (max-width: 1024px) and (min-width: 412px) {
+  .temas .listaDestaque li img {
+    height: 172px;
+    width: 282px;
+    transform: translate(0%, 0%) !important;
+  }
+  .temas .listaDestaque li {
+    margin-bottom: -1px;
+  }
+  .adjustText {
+    transform: translate(-2%, 0%) !important;
+  }
+  .temas .listaDestaque li {
+    float: left;
+  }
+}
+@media screen and (max-width: 400px) and (min-width: 200px) {
+  .temas .listaDestaque li {
+    min-height: 10px;
+    margin-bottom: 0px;
+    height: 176px;
+    margin-right: 1px;
+    float: left;
+  }
+  .temas .listaDestaque li img {
+    height: 172px;
+    width: 282px;
+    transform: translate(0%, 0%) !important;
+  }
+  .adjustText {
+    transform: translate(-2%, 0%) !important;
+    width: 100% !important;
+  }
+  .temas .listaDestaque li {
+    min-height: 168px;
+    margin-bottom: 0px;
+    height: 230px;
+    margin-right: 1px;
+  }
+}
+@media screen and (max-width: 359px) and (min-width: 320px) {
+  .temas .listaDestaque li {
+    float: none;
+  }
+}
+.migalha {
+  font-size: 13.7px;
+  margin-bottom: 13px;
+  margin-top: 20px;
+}
+.migalha.atual {
+  color: #666;
+  display: inline;
+  font-size: 18px !important;
+  font-weight: 500 !important;
+}
+.boxAvaliacao,
+.boxMiniResultado {
+  margin-bottom: 25px;
+  padding-left: 16px;
+}
+@media screen and (max-width: 700px) and (min-width: 200px) {
+  #conteudoCentral {
+    overflow: visible;
+    padding-bottom: 10px;
+  }
+  .conteudo .conteudoCentro {
+    margin-top: 0px;
+    top: 0px;
+    width: 100%;
+  }
+  .listaSimples {
+    margin-top: 15px;
+  }
+}
+.conteudo .boxLateral {
+  top: 0px;
+  /* width: 275px; */
+  /* float: left; */
+  position: relative;
+  float: left;
+  transform: translate(0%, 0%) !important;
+}
+@media screen and (max-width: 700px) and (min-width: 200px) {
+  #boxLateral {
+    display: block !important;
+    height: 753px;
+  }
+}

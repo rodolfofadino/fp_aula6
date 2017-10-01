@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\fiapwpoa - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\fiapwpoa - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\fiapwpob - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\fiapwpob - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="2.5.357" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
   </ItemGroup>
@@ -17,6 +24,10 @@
     <None Include="wwwroot\css\receitas.css" />
     <None Include="wwwroot\css\temas.css" />
     <None Include="wwwroot\css\topoNav.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>

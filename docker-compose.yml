@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  fiapaula6:
+    image: fiapaula6
+    build:
+      context: ./FiapAula6
+      dockerfile: Dockerfile
